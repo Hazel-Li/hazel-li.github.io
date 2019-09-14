@@ -33,7 +33,7 @@ layout: page
 <h2>Projects</h2>
 
 <ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
+	<li><a href="https://github.com/Hazel-Li/Graduate-School-Recommendation-System">Graduate University Recommendation System</a></li>
+	<li><a href="https://github.com/Hazel-Li/implementation-on-CS231n">Implementation on CS231n</a></li>
+	<li><a href="https://github.com/Hazel-Li/self-teaching-material">Material for my blog</a></li>
 </ul>
