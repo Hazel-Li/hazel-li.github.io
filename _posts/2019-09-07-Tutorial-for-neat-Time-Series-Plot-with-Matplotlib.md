@@ -16,8 +16,9 @@ description: data visualization with Matplotlib
 
 # Preface
 在开始之前，简单说一下你可以从这篇文章里看到什么：
-1 处理时间序列数据
-2 上下分布式的图
+
+1. 处理时间序列数据
+2. 上下分布式的图
 
 # Time Series
 
@@ -42,23 +43,23 @@ dates1=pd.DatetimeIndex(dates1)
 type(dates1)
 ```
 
-用type()看一下发生了啥：
-本来是numpy.ndarray
-现在是pandas.core.indexes.datetimes.DatetimeIndex
-现在我们得到的就是好看方便的日期了！
-否则的话，你到时候直接画出来的图就会变成这样
+用type()看一下发生了啥：   
+本来是numpy.ndarray  
+现在是pandas.core.indexes.datetimes.DatetimeIndex  
+现在我们得到的就是好看方便的日期了！  
+否则的话，你到时候直接画出来的图就会变成这样  
 ![Emmm.png](https://upload-images.jianshu.io/upload_images/19398691-71a081258dac2387.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 
 # Start plotting
 
-其实我想说的就是神器subplot2grid，她可以任意排布图片
-subplot2grid(shape, loc, rowspan=1, colspan=1)
-shape : 画布的长，宽
-loc : 这幅图在画布上的位置，也就是左上角的坐标的感觉
-rowspan : 占多少行
-colspan : 占多少列
+其实我想说的就是神器subplot2grid，她可以任意排布图片  
+subplot2grid(shape, loc, rowspan=1, colspan=1)  
+shape : 画布的长，宽  
+loc : 这幅图在画布上的位置，也就是左上角的坐标的感觉  
+rowspan : 占多少行  
+colspan : 占多少列  
 
 ![subplot2grid.png](https://upload-images.jianshu.io/upload_images/19398691-9cb18e45a2a88215.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
@@ -93,15 +94,14 @@ emmm，令人不悦，但是效果已经七七八八了，然后我当时又苦�
 plt.subplots_adjust(bottom=0.13,top=0.95,hspace=0)
 ```
 
-left = 0.125  # the left side of the subplots of the figure
-right = 0.9   # the right side of the subplots of the figure
-bottom = 0.1  # the bottom of the subplots of the figure
-top = 0.9     # the top of the subplots of the figure
-wspace = 0.2  # the amount of width reserved for space between subplots,
-              # expressed as a fraction of the average axis width
-hspace = 0.2  # the amount of height reserved for space between subplots,
-              # expressed as a fraction of the average axis height
-反正有需求的可以上官网随便逛逛，matplotlib还是很强大
+left = 0.125  # the left side of the subplots of the figure  
+right = 0.9   # the right side of the subplots of the figure  
+bottom = 0.1  # the bottom of the subplots of the figure  
+top = 0.9     # the top of the subplots of the figure  
+wspace = 0.2  # the amount of width reserved for space between subplots   
+hspace = 0.2  # the amount of height reserved for space between subplots
+
+反正有需求的可以上官网随便逛逛，matplotlib还是很强大  
 [https://matplotlib.org/api/_as_gen/matplotlib.pyplot.subplots_adjust.html](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.subplots_adjust.html)
 
 

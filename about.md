@@ -4,10 +4,14 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>Bachelor of Economics at Shanghai Univerity of Economics and Finance
-Major in Finance</p>
+<p>Passionate about data analytics and data science</p>
 
-<p>Visiting Undergraduate Student at Columbia University in the city of New Yotk</p>
+<h2>Education Background</h2>
+
+<ul class="edu-history">
+	<li>Bachelor of Economics at Shanghai University of Finance and Economics, Major in Finance</li>
+	<li>Visiting Undergraduate Student at Columbia University in the city of New Yotk</li>
+</ul>
 
 <h2>Skills</h2>
 
