@@ -22,7 +22,8 @@ description: data visualization with Matplotlib
 # Time Series
 
 我的df是两级index，第一级是股票code，第二级是日期
-```
+
+```python
 data_input = pd.read_csv('data_input.csv',
                    delimiter=',',
                    converters={'Stkcd':str})
@@ -33,13 +34,14 @@ data_input=data_input.set_index(['Stkcd','Trddt'])
 
 接下来就是把我们需要的数据取出来：
 
-```
+```python
 price1=data_input.loc[Ticker][start_time1:end_time1]['Clsprc'].values
 vol1=data_input.loc[Ticker][start_time1:end_time1]['Dsmvosd'].values
 dates1=data_input.loc[Ticker][start_time1:end_time1]['Clsprc'].index.values
 dates1=pd.DatetimeIndex(dates1)
 type(dates1)
 ```
+
 用type()看一下发生了啥：
 本来是numpy.ndarray
 现在是pandas.core.indexes.datetimes.DatetimeIndex
@@ -60,7 +62,7 @@ colspan : 占多少列
 
 ![subplot2grid.png](https://upload-images.jianshu.io/upload_images/19398691-9cb18e45a2a88215.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-```
+```python
 fig = plt.figure(figsize=(20,6))
 ax1 = plt.subplot2grid((4,20),(0,0),rowspan=3,colspan=9)
 ax1.set_title('Stock:002415(Period:2017)')
@@ -79,15 +81,18 @@ plt.grid(ls="--")
 for label in ax2.xaxis.get_ticklabels():
     label.set_rotation(45)
 ```
+
 解释一下，我的图是3:1的行数，1:1的列数，这样画完之后效果差不多这样：
 ![1.png](https://upload-images.jianshu.io/upload_images/19398691-e5986e34244cfc78.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 emmm，令人不悦，但是效果已经七七八八了，然后我当时又苦苦寻觅，发现了
 下面的方法，简单说就是hspace可以控制subplots之间的间距，设置为0的话，就没有缝隙了：
-```
+
+```python
 plt.subplots_adjust(bottom=0.13,top=0.95,hspace=0)
 ```
+
 left = 0.125  # the left side of the subplots of the figure
 right = 0.9   # the right side of the subplots of the figure
 bottom = 0.1  # the bottom of the subplots of the figure
@@ -101,7 +106,7 @@ hspace = 0.2  # the amount of height reserved for space between subplots,
 
 
 # 完整代码
-```
+```python
 import datetime
 from matplotlib.dates import MonthLocator, DateFormatter
 import matplotlib.dates as mdates

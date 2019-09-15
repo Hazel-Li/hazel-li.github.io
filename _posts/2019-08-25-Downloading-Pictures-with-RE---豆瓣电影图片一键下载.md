@@ -21,7 +21,7 @@ import re
 
 ### 1 Define a function to retrieve data from a webpage
 这里写了个函数，主要是用来获取网页上的数据
-```
+```python
 def get_html(url):
     ua_headers={'User-Agent':'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_8; en-us) AppleWebKit/534.50 (KHTML, like Gecko) Version/5.1 Safari/534.50'}
     request = urllib.request.Request(url,headers=ua_headers)
@@ -36,14 +36,17 @@ def get_html(url):
 这里读取了该网页的内容，看看我们想要的图片是什么格式
 对了 这里选了我很喜欢的电影的图片页
 {% endhighlight %}
-```
+
+```python
 content=get_html('https://movie.douban.com/subject/1851857/all_photos')
 print(content)
 ```
+
 ### 3 RE is a good tool to regulize and extract information
 这里主要就是正则表达式读取形如src=“ #####  .jpg"的内容
 然后把图片链接打印出来
-```
+
+```python
 reg = r'src="(.+?\.jpg)"'
 reg_img = re.compile(reg)#编译一下，运行更快
 imglist=reg_img.findall(content)
@@ -58,8 +61,9 @@ for img in imglist:
 [https://img3.doubanio.com/view/photo/sqxs/public/p902859926.jpg](https://img3.doubanio.com/view/photo/sqxs/public/p902859926.jpg)
 [https://img3.doubanio.com/view/photo/sqxs/public/p1340704365.jpg](https://img3.doubanio.com/view/photo/sqxs/public/p1340704365.jpg)
 差不多就会告诉我们这样子
+
 ### 4 Here we go :
-```
+```python
 x = 0
 for img in imglist:
     urllib.request.urlretrieve(img, '%s.jpg' %x)
