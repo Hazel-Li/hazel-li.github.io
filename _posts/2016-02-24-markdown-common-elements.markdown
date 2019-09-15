@@ -2,14 +2,14 @@
 title: "Markdown Common Elements"
 layout: post
 date: 2016-02-24 22:44
-image: /assets/images/markdown.jpg
+image: /assets/images/beautifulsoup.jpg
 headerImage: false
 tag:
-- markdown
-- elements
+- Webspider
+- beautifulsoup
 star: true
 category: blog
-author: johndoe
+author: yitingli
 description: Markdown summary with different options
 ---
 

@@ -4,7 +4,8 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>Bachelor of Economics at Shanghai Univerity of Economics and Finance, Major in Finance</p>
+<p>Bachelor of Economics at Shanghai Univerity of Economics and Finance
+Major in Finance</p>
 
 <p>Visiting Undergraduate Student at Columbia University in the city of New Yotk</p>
 
