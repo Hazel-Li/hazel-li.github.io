@@ -3,7 +3,7 @@ title: " 利用BeautifulSoup抓取豆瓣电影top250"
 layout: post
 date: 2019-08-26 22:18
 image: /assets/images/markdown.jpg
-headerImage: false
+headerImage: true
 tag:
 - Webspider
 - beautifulsoup
@@ -44,14 +44,14 @@ def get_html(offset):
 
 这里要说的就是豆瓣250的网页都是一个格式
 比如
-https://movie.douban.com/top250?start=25&filter=
-https://movie.douban.com/top250?start=50&filter=
+https://movie.douban.com/top250?start=25&filter=  
+https://movie.douban.com/top250?start=50&filter=  
 所以我们把不同的部分取出来用一个参数传进去，并且用str()转换成string
 到这里就是把网页当中所有的东西爬了下来
 
 ## 解析网址
 
-这也是最关键的，我大概看了两晚上，才大概知道怎么找到我想要的信息
+这也是最关键的，我大概看了两晚上，才大概知道怎么找到我想要的信息  
 先说一下我自己是想要把电影的名字，评分，爬下来然后和imdb做个对比，所以我需要外文名，这就是我捣鼓了最久的，如何提取英文名，中文名等。效果也不是特别好，请见谅。
 
 ###  beautifulsoup的使用方法
@@ -71,11 +71,10 @@ https://movie.douban.com/top250?start=50&filter=
 {% highlight raw %}
 1 <div class='item'> 
 2 <div class="hd">
-3  <a href="https://movie.douban.com/subject/1292052/" class="">
+3 <a href="https://movie.douban.com/subject/1292052/" class="">
 4 <span class="title">
 {% endhighlight %}
-
-**敲重点了，如果你要读的是第二个span里的值怎么办？**
+**敲重点了，如果你要读的是第二个span里的值怎么办？**   
 读到第一个span然后 `.next_sibling`
 
 ### 规范信息
