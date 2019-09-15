@@ -29,12 +29,10 @@ def get_html(url):
     return html
 ```
 ### 2 Let's see what we get 
-<img src="https://img1.doubanio.com/view/photo/sqxs/public/p457121168.jpg">
 
 {% highlight raw %}
 <img src="https://img1.doubanio.com/view/photo/sqxs/public/p457121168.jpg">
 这里读取了该网页的内容，看看我们想要的图片是什么格式
-对了 这里选了我很喜欢的电影的图片页
 {% endhighlight %}
 
 ```python
