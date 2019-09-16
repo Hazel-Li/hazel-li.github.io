@@ -3,15 +3,16 @@ title: "Graduate University Recommendation System"
 layout: post
 date: 2019-09-15 20:18
 image: /assets/images/beautifulsoup.jpg
+tag: 
+- recommendation system
+- text mining
 headerImage: false
-tag:
-- projects
 projects: true
-hidden: true
+hidden: true 
+description: "This is a data mining project based on a forum called Gradcafe"
 category: project
-externalLink: false
 author: yitingli
-description: This is a data mining project based on a forum called Gradcafe
+externalLink: false
 ---
 # Graduate University Recommendation System
 
