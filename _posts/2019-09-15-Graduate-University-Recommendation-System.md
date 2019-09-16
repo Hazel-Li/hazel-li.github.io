@@ -64,7 +64,7 @@ This gives us an overall picture of different GRE and GPA preferrence of each ma
 
 We want to know whether the comments contain useful information for applicants to make desicions. 
 
-![wordcloud.png](/assets/images/worldcloud.png)
+![wordcloud.png](/assets/images/wordcloud.jpg)
 
 Our goal is to genererate a word token list according to TF-IDF to display the keywords of every university. We are delighted to gain some valuable insights based on text analytics.Let's see what we got.
 
