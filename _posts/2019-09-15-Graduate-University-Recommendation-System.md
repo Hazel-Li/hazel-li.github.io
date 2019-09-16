@@ -6,8 +6,10 @@ image: /assets/images/beautifulsoup.jpg
 headerImage: false
 tag:
 - projects
-star: true
-category: projects
+projects: true
+hidden: true
+category: project
+externalLink: false
 author: yitingli
 description: This is a data mining project based on a forum called Gradcafe
 ---
