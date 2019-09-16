@@ -71,7 +71,9 @@ for img in imglist:
 函数：urllib.urlretrieve(url[, filename[, reporthook[, data]]])   
 这里就是给了个filename用数字序列命名
 
-好了成功运行之后就会发现![image.png](https://upload-images.jianshu.io/upload_images/19398691-ad93ab88e714571b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+好了成功运行之后就会发现
+![image.png](/assets/images/douban_pic.png)
+<figcaption class="caption">Downloading pictures</figcaption>
 
 
 整个下载过程非常快，因为是缩略图-，-

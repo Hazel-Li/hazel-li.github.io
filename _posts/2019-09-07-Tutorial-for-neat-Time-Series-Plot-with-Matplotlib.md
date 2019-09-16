@@ -12,7 +12,7 @@ author: yitingli
 description: data visualization with Matplotlib
 ---
 考虑到大家总是有画图的需求，而时间序列数据，处理不好的话画出来的图就会不好看。自己属于完美主义者，觉得图不好看就会很别扭，摸索了半天，差不多可以画出如下效果：
-![Stock Price.png](https://upload-images.jianshu.io/upload_images/19398691-4dbc3f82bb12771f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![stock_price.png](/assets/images/stock_price.png)
 
 # Preface
 在开始之前，简单说一下你可以从这篇文章里看到什么：
@@ -31,7 +31,7 @@ data_input = pd.read_csv('data_input.csv',
 data_input=data_input.set_index(['Stkcd','Trddt'])
 ```
 挑一个股票看看就是这样的数据，我的dataframe长这样（苍天我不知道图片如何变小）：
-![Data format.png](https://upload-images.jianshu.io/upload_images/19398691-22fbb744454a0e47.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![data_format.png](/assets/images/data_format.png)
 
 接下来就是把我们需要的数据取出来：
 
@@ -48,7 +48,7 @@ type(dates1)
 现在是pandas.core.indexes.datetimes.DatetimeIndex  
 现在我们得到的就是好看方便的日期了！  
 否则的话，你到时候直接画出来的图就会变成这样  
-![Emmm.png](https://upload-images.jianshu.io/upload_images/19398691-71a081258dac2387.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![emmm.png](/assets/images/emmm.png)
 
 
 
@@ -61,7 +61,7 @@ loc : 这幅图在画布上的位置，也就是左上角的坐标的感觉
 rowspan : 占多少行  
 colspan : 占多少列  
 
-![subplot2grid.png](https://upload-images.jianshu.io/upload_images/19398691-9cb18e45a2a88215.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![subplot2grid.png](/assets/images/subplot2grid.png)
 
 ```python
 fig = plt.figure(figsize=(20,6))
@@ -84,7 +84,7 @@ for label in ax2.xaxis.get_ticklabels():
 ```
 
 解释一下，我的图是3:1的行数，1:1的列数，这样画完之后效果差不多这样：
-![1.png](https://upload-images.jianshu.io/upload_images/19398691-e5986e34244cfc78.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![gap.png](/assets/images/gap.png)
 
 
 emmm，令人不悦，但是效果已经七七八八了，然后我当时又苦苦寻觅，发现了
