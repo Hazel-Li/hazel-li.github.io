@@ -68,6 +68,6 @@ We want to know whether the comments contain useful information for applicants t
 
 Our goal is to genererate a word token list according to TF-IDF to display the keywords of every university. We are delighted to gain some valuable insights based on text analytics.Let's see what we got.
 
-![tfidf.png](/assets/images/tfidf.png)
+![tfidf.png](/assets/images/tfidf.jpg)
 
 Both CMU and UCLA mention **sponsorship**，and some of the applicants feel excited about the results of **assitantships**. Applicants of UCB talks about their working experience in the field of industry. What's more, applicants of UCB lay emphasis on academic expreience such as experiments and papers.
