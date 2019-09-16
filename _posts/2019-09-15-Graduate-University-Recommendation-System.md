@@ -48,15 +48,15 @@ Dedicated to: Zhengyao Zhu, Qinjin Yuan, Yiting Li
 
 This gives us an overall picture of the distribution of the majors and the different admission rates of different majors.
 
-![major.png](/assests/images/major.png)
+![major.png](/assets/images/major.png)
 
 This gives us an overall picture of the ditribution of the university of our dataset.
 
-![uni.png](/assests/images/unicnt.png)
+![uni.png](/assets/images/unicnt.png)
 
 This gives us an overall picture of different GRE and GPA preferrence of each major.
 
-![grade.png](/assests/images/grademajor.png)
+![grade.png](/assets/images/grademajor.png)
 
 
 
@@ -64,10 +64,10 @@ This gives us an overall picture of different GRE and GPA preferrence of each ma
 
 We want to know whether the comments contain useful information for applicants to make desicions. 
 
-![wordcloud.png](/assests/images/worldcloud.png)
+![wordcloud.png](/assets/images/worldcloud.png)
 
 Our goal is to genererate a word token list according to TF-IDF to display the keywords of every university. We are delighted to gain some valuable insights based on text analytics.Let's see what we got.
 
-![tfidf.png](/assests/images/tfidf.png)
+![tfidf.png](/assets/images/tfidf.png)
 
 Both CMU and UCLA mention **sponsorship**，and some of the applicants feel excited about the results of **assitantships**. Applicants of UCB talks about their working experience in the field of industry. What's more, applicants of UCB lay emphasis on academic expreience such as experiments and papers.
