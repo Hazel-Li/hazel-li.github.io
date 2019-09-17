@@ -24,10 +24,10 @@ layout: page
 <ul class="course-list">
 	<li>Data Mining</li>
 	<li>Deep Learning</li>
+	<li><a href="http://www.math.columbia.edu/~smirnov/">Intro to the Mathematics of Finance</a></li>
+	<li>Algorithmic Design and Analysis</li>
 	<li>Database</li>
 	<li>Data Stucture</li>
-	<li>Intro to the Mathematics of Finance</li>
-	<li>Algorithmic Design and Analysis</li>
 	<li>Analysis and Optimization</li>
 	<li>Corporate Finance</li>
 	<li>Financial Accouting</li>
