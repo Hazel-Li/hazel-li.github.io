@@ -7,8 +7,8 @@ layout: page
 <p>Passionate about <span style="color:blue">Data Analytics</span> and <span style="color:blue">Data Science</span></p>
 <h2>Education Background</h2>
 <ul class="edu-history">
-	<li>Bachelor of Economics at <span style="color:blue">Shanghai University of Finance and Economics</span>, Major in Finance</li>
-	<li>Visiting Undergraduate Student at <span style="color:blue">Columbia University in the city of New Yotk</span></li>
+	<li>Bachelor of Economics at [Shanghai University of Finance and Economics](http://english.sufe.edu.cn/), Major in Finance</li>
+	<li>Visiting Undergraduate Student at [Columbia University in the city of New Yotk](https://www.columbia.edu/)</li>
 </ul>
 
 <h2>Skills</h2>
@@ -25,10 +25,12 @@ layout: page
 	<li>Data Mining</li>
 	<li>Deep Learning</li>
 	<li>Database</li>
-	<li>Algorithmic Design and Analysis</li>
 	<li>Data Stucture</li>
-	<li>Corporate Finence</li>
-	<li>Investment</li>
+	<li>Intro to the Mathematics of Finance</li>
+	<li>Algorithmic Design and Analysis</li>
+	<li>Analysis and Optimization</li>
+	<li>Corporate Finance</li>
+	<li>Financial Accouting</li>
 </ul>
 
 <h2>Projects</h2>
