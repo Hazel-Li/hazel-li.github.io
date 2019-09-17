@@ -8,7 +8,7 @@ layout: page
 <h2>Education Background</h2>
 <ul class="edu-history">
 	<li>Bachelor of Economics at [Shanghai University of Finance and Economics](http://english.sufe.edu.cn/), Major in Finance</li>
-	<li>Visiting Undergraduate Student at [Columbia University in the city of New Yotk](https://www.columbia.edu/)</li>
+	<li>Visiting Undergraduate Student at [Columbia University in the city of New York](https://www.columbia.edu/)</li>
 </ul>
 
 <h2>Skills</h2>
