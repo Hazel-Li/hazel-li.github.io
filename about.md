@@ -7,8 +7,8 @@ layout: page
 <p>Passionate about <span style="color:blue">Data Analytics</span> and <span style="color:blue">Data Science</span></p>
 <h2>Education Background</h2>
 <ul class="edu-history">
-	<li>Bachelor of Economics at [Shanghai University of Finance and Economics] (http://english.sufe.edu.cn/), Major in Finance</li>
-	<li>Visiting Undergraduate Student at [Columbia University in the city of New York] (https://www.columbia.edu/)</li>
+	<li>Bachelor of Economics at <a href="http://english.sufe.edu.cn/">Shanghai University of Finance and Economics</a>, Major in Finance</li>
+	<li>Visiting Undergraduate Student at <a href="https://www.columbia.edu/">Columbia University in the city of New York</a></li>
 </ul>
 
 <h2>Skills</h2>
