@@ -55,6 +55,10 @@ Have you ever troubled by having things uploaded and downloaded? There are many 
    
 4. Github Desktop can trace every changed your made
 
+   Interactive way same as step 3
+
+   ![image-20190929232200947](/Users/liyiting/hazel-li.github.io/assets/images/r4.png)
+
    ![image-20190929231136525](/Users/liyiting/hazel-li.github.io/assets/images/r3.png)
 
 To sum up, it is a quick way to have your files stored online. It works well with codes and documents. But you have a big digest for videos, it should not be your choice.
