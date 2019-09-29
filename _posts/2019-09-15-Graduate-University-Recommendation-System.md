@@ -4,6 +4,7 @@ layout: post
 date: 2019-09-15 20:18
 image: /assets/images/beautifulsoup.jpg
 tag: 
+- data mining
 - recommendation system
 - text mining
 headerImage: false
@@ -18,7 +19,6 @@ externalLink: false
 
 This is a <span style="color:blue">data mining</span> project based on a forum called *Gradcafe*
 
-Dedicated to: Zhengyao Zhu, Qinjin Yuan, Yiting Li
 
 ## A shallow dive into our dataset
 
