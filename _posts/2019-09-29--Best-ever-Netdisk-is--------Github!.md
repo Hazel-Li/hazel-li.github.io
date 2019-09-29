@@ -24,7 +24,8 @@ Have you ever troubled by having things uploaded and downloaded? There are many 
 1. VS Code
 2. Github Desktop or your terminal
 
-###Steps
+### Steps
+
 1. If you don't have an account, then create a new github account
 
 2. Add a new repository
