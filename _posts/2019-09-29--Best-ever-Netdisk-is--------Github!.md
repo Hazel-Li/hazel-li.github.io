@@ -2,8 +2,8 @@
 title: " Best ever Netdisk is ------ Github!"
 layout: post
 date: 2019-09-29 22:44
-image: /assets/images/beautifulsoup.jpg
-headerImage: false
+image: /assets/images/github-logo-transparent.jpg
+headerImage: true
 tag:
 - Trick
 star: true
@@ -14,7 +14,7 @@ description:
 
 ## Preface
 
-Have you ever troubled by having things uploaded and downloaded? There are many methods for you to transfer your files without USB. We have Baidu Netdisk, iCloud, Onedrive, etc. But some of them charge you extra money and others can not give you a prompt experience.
+Have you ever been troubled by having things uploaded and downloaded? There are many methods for you to transfer your files without USB. We have Baidu Netdisk, iCloud, Onedrive, etc. But some of them charge you extra money and others can not give you a prompt experience.
 
 [GitHub](https://github.com/) is an American company that provides hosting for software development version control using Git. What's more, it can be serve as a free **repository**.
 
@@ -62,4 +62,4 @@ Have you ever troubled by having things uploaded and downloaded? There are many 
 
    ![image-20190929231136525](/assets/images/r3.png)
 
-To sum up, it is a quick way to have your files stored online. It works well with codes and documents. But you have a big digest for videos, it should not be your choice.
+To sum up, it is a quick way to have your files stored online. It works well with codes and documents. But if you have a big digest for videos, it should not be your choice.
