@@ -1,5 +1,5 @@
 ---
-title: "Graduate University Recommendation System"
+title: "Overseas Graduate University Recommender System"
 layout: post
 date: 2019-09-15 20:18
 image: /assets/images/beautifulsoup.jpg
@@ -15,9 +15,9 @@ category: project
 author: yitingli
 externalLink: false
 ---
-# Graduate University Recommendation System
+# Context
 
-This is a <span style="color:blue">data mining</span> project based on a forum called *Gradcafe*
+This is a Data Mining project based on a forum called <a href="https://www.thegradcafe.com/">Gradcafe</a>.
 
 
 ## A shallow dive into our dataset
@@ -71,3 +71,16 @@ Our goal is to genererate a word token list according to TF-IDF to display the k
 ![tfidf.png](/assets/images/tfidf.jpg)
 
 Both CMU and UCLA mention **sponsorship**，and some of the applicants feel excited about the results of **assitantships**. Applicants of UCB talks about their working experience in the field of industry. What's more, applicants of UCB lay emphasis on academic expreience such as experiments and papers.
+
+## Website Preview
+
+We designed a webpage with an interactive interface to display what we achieved.
+
+Here we have login page.
+![p1.png](/assets/images/p1.jpg)
+
+Here we have information input page.
+![p2.png](/assets/images/p2.jpg)
+
+Here we have results.
+![p3.png](/assets/images/p4.jpg)
