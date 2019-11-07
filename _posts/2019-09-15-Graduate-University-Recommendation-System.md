@@ -15,7 +15,7 @@ category: project
 author: yitingli
 externalLink: false
 ---
-# Context
+## Context
 
 This is a Data Mining project based on a forum called <a href="https://www.thegradcafe.com/">Gradcafe</a>.
 
