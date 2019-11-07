@@ -19,6 +19,8 @@ externalLink: false
 
 This is a Data Mining project based on a forum called <a href="https://www.thegradcafe.com/">Gradcafe</a>.
 
+Prospective graduate students have long been wondering what factors are taken into consideration by the admission office and whether their academic achievements are sufficient for a particular program. Using a dataset with over 30,000 entries from TheGradCafe.com, this project aimed to provide insight on the admission requirements of each school and major, generate a recommendation list using Collaborative Filtering, and predict the admission rates for each school to assist students in their decision-making process.
+
 
 ## A shallow dive into our dataset
 
@@ -77,10 +79,13 @@ Both CMU and UCLA mention **sponsorship**，and some of the applicants feel exci
 We designed a webpage with an interactive interface to display what we achieved.
 
 Here we have login page.
+
 ![p1.png](/assets/images/p1.png)
 
 Here we have information input page.
+
 ![p2.png](/assets/images/p2.png)
 
 Here we have results.
+
 ![p3.png](/assets/images/p4.png)
