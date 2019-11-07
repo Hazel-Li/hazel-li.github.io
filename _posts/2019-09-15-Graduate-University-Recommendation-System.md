@@ -77,10 +77,10 @@ Both CMU and UCLA mention **sponsorship**，and some of the applicants feel exci
 We designed a webpage with an interactive interface to display what we achieved.
 
 Here we have login page.
-![p1.png](/assets/images/p1.jpg)
+![p1.png](/assets/images/p1.png)
 
 Here we have information input page.
-![p2.png](/assets/images/p2.jpg)
+![p2.png](/assets/images/p2.png)
 
 Here we have results.
-![p3.png](/assets/images/p4.jpg)
+![p3.png](/assets/images/p4.png)
