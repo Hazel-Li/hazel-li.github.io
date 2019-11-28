@@ -91,7 +91,7 @@ cust_month_tx = pd.pivot_table(data=online,
 
 3. R-square
 
-![formula](/assets/images/formula.jpg)
+![formula](/assets/images/formula.JPG)
 
 #### OLS Rpeort
 
